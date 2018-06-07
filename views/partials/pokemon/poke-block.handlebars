@@ -1,7 +1,7 @@
 
 <div class="block">
     {{!-- Disabled for testing until deployment. --}}
-    <img src="{{pokemon_front_sprite_url}}" class="img-fluid" alt="Responsive image">
+    {{!-- <img src="{{pokemon_front_sprite_url}}" class="img-fluid" alt="Responsive image"> --}}
     {{#if pokemon_nickName}}
         <h4>{{pokemon_nickName}}</h4>
     {{else}}
@@ -9,7 +9,7 @@
     {{/if}}
 
     {{#unless caught}}
-        <button class="btn" data-id="{{id}}" data-pokeid="{{pokemon_id}}" data-newcaught="1">Throw Pokeball</button>
+        <button class="catch-pokemon btn" data-id="{{id}}" data-pokeid="{{pokemon_id}}" data-newcaught="1">Throw Pokeball</button>
     {{/unless}}
 </div>
 
