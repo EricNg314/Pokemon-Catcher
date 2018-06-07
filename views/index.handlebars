@@ -12,25 +12,27 @@
     </form>
 
     <hr>
-    <div>
+    <div class="row">
         {{!-- TODO: Update poke-block when query is validated. --}}
-        {{!-- <div class="card">
-            <ul>
+        <div class="card col-md-6">
+            
                 {{#each pokemon}} 
-                    {{#if caught}} 
-                        {{>pokemon/poke-block caught=false}} 
+                    {{#if appeared}} 
+                        {{#unless caught}}
+                            {{>pokemon/poke-block}} 
+                        {{/unless}}
                     {{/if}} 
                 {{/each}}
-            </ul>
+
         </div>
-        <div class="card">
-            <ul>
+        <div class="card  col-md-6">
+            {{!-- <div class="card-body"> --}}
                 {{#each pokemon}} 
                     {{#if caught}} 
-                        {{>pokemon/poke-block caught=false}} 
+                        {{>pokemon/poke-block}} 
                     {{/if}} 
                 {{/each}}
-            </ul>
-        </div> --}}
+            {{!-- </div> --}}
+        </div>
     </div>
 </div>

@@ -6,7 +6,7 @@ INSERT INTO pokemon (pokemon_id, pokemon_name, pokemon_nickName, appeared, caugh
     (4, "charmander", "Hot Stuff", true, false, "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"),
     (5, "charmeleon", null, false, false, "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"),
     (6, "charizard", null, false, false, "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"),
-    (7, "squirtle", "Squit Gun", true, false, "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"),
+    (7, "squirtle", "Squirt Gun", true, false, "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"),
     (8, "wartortle", null, false, false, "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"),
     (9, "blastoise", null, false, false, "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"),
     (25, "pikachu", "Madam Shiny", true, true, "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/25.png")

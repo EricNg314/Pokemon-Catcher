@@ -1,0 +1,15 @@
+
+<div class="block">
+    {{!-- Disabled for testing until deployment. --}}
+    {{!-- <img src="{{pokemon_front_sprite_url}}" class="img-fluid" alt="Responsive image"> --}}
+    {{#if pokemon_nickName}}
+        <h4>{{pokemon_nickName}}</h4>
+    {{else}}
+        <h4>{{pokemon_name}}</h4>
+    {{/if}}
+
+    {{#unless caught}}
+        <button class="btn" data-id="{{id}}" data-pokeid="{{pokemon_id}}" data-newcaught="1">Throw Pokeball</button>
+    {{/unless}}
+</div>
+
