@@ -1,7 +1,7 @@
 <h1>Ready to be a POKEMON MASTER?!</h1>
 <hr>
 <div class="container">
-    <h2>Find a Wild Pokemon!</h2>
+    <h3>Find a Wild Pokemon!</h3>
     <form class="create-form">
         <div class="form-group">
             <label for="poke">Call out a name and a pokemon might appear!</label>
@@ -15,24 +15,20 @@
     <div class="row">
         {{!-- TODO: Update poke-block when query is validated. --}}
         <div class="card col-md-6">
-            
-                {{#each pokemon}} 
-                    {{#if appeared}} 
-                        {{#unless caught}}
-                            {{>pokemon/poke-block}} 
-                        {{/unless}}
-                    {{/if}} 
-                {{/each}}
-
+            {{#each pokemon}} 
+                {{!-- {{#if appeared}}  --}}
+                    {{#unless caught}}
+                        {{>pokemon/poke-block}} 
+                    {{/unless}}
+                {{!-- {{/if}}  --}}
+            {{/each}}
         </div>
         <div class="card  col-md-6">
-            {{!-- <div class="card-body"> --}}
-                {{#each pokemon}} 
-                    {{#if caught}} 
-                        {{>pokemon/poke-block}} 
-                    {{/if}} 
-                {{/each}}
-            {{!-- </div> --}}
+            {{#each pokemon}} 
+                {{#if caught}} 
+                    {{>pokemon/poke-block}} 
+                {{/if}} 
+            {{/each}}
         </div>
     </div>
 </div>
