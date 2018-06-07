@@ -11,8 +11,8 @@ var poke = {
             cb(res);
         });
     },
-    updateOne: function (cb) {
-        orm.updateOne(function (res) {
+    updateOne: function (objColVals, condition, cb) {
+        orm.updateOne("pokemon", objColVals, condition, function (res) {
             cb(res);
         });
     }

@@ -5,11 +5,11 @@ var orm = {
         console.log("Select All ORM");
         
     },
-    insertOne: function(){
+    insertOne: function(table, cols, vals, cb){
         console.log("Insert One ORM");
   
     },
-    updateOne: function(){
+    updateOne: function(table, objColVals, condition, cb){
         console.log("Update One ORM");
     },
 }
