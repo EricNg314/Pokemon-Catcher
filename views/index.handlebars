@@ -24,6 +24,7 @@
     <hr>
     <div class="d-flex">
         <div class="card bg-white-transparent col-md-6">
+            <h3 class="text-center">Wild Pokemon</h3>
             {{#each pokemon}} 
                 {{!-- {{#if appeared}}  --}}
                     {{#unless caught}}
@@ -33,6 +34,7 @@
             {{/each}}
         </div>
         <div class="card bg-white-transparent col-md-6">
+            <h3 class="text-center">Caught</h3>
             {{#each pokemon}} 
                 {{#if caught}} 
                     {{>pokemon/poke-block}} 
