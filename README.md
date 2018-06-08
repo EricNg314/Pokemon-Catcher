@@ -1,5 +1,5 @@
 # Pokemon-Catcher :globe_with_meridians:
-Find a wild pokemon with a your nickname of choice. Then catch'em all!
+Call out a name and a pokemon might appear!
 
 This application was built as an example of a full stack webpage with front and backend. 
 The example:
