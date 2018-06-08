@@ -55,7 +55,8 @@ This repo utilizes various packages from Node Package Manager(NPM).
     
 ## Built With :hammer:
 * [HTML5](https://www.w3.org/TR/html/) - Standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
-* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Used for styling html webpages.
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Styling html webpages.
+* [Animate.css](https://github.com/daneden/animate.css) - A css library for animations.
 * [Bootstrap](https://getbootstrap.com/) - Open source toolkit for developing with HTML, CSS, and JS. 
 * [Javascript](https://www.javascript.com/) - An object-oriented computer programming language.
 * [jQuery](https://jquery.com/) - A javascript library to simplify programs.
@@ -69,3 +70,6 @@ This repo utilizes various packages from Node Package Manager(NPM).
 
 ## Authors :squirrel: 
 * **Eric Ng** [EricNg314](https://github.com/EricNg314)
+
+## Acknowledgments 
+* Original animations prior to modifications are from Animate.css from Daniel Eden. [Click here](https://github.com/daneden/animate.css)
