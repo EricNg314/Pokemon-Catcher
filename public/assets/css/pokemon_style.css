@@ -6,19 +6,31 @@ body {
     -o-background-size: cover; 
     background-size: cover;
     overflow: visible;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     text-align: center;
 }
 
 .bg-white-transparent{
-    background-color: rgba(255, 255, 255, 0.76)!important;
+    background-color: rgba(255, 255, 255, 0.82)!important;
 }
 
 .pokeball-icon{
     width:8%;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
 
+.alignment{
+    vertical-align: text-bottom;
+}
+
+@media only screen and (max-width: 1000px) {
+    .alignment{
+        vertical-align: middle;
+    }
+}
 
 
 /* START Snippet of animate.css from https://github.com/daneden/animate.css */
