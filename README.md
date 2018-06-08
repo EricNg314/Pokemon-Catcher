@@ -11,9 +11,9 @@ The example:
 
 [Click here](https://damp-hollows-13291.herokuapp.com/) to check out the deployed site on Heroku!
 
-## Examples of App :tv:
+## Example of App :tv:
 
-<!-- ![demo](/assets/Poke-Trainer-Finder.gif) -->
+![demo](/public/assets/img/PokemonDemo.gif)
 
 ## Getting Started :loudspeaker:
 This repo utilizes various packages from Node Package Manager(NPM).
