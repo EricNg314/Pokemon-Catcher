@@ -9,8 +9,8 @@
     {{/if}}
 
     {{#unless caught}}
-    <div>
-        <img src="/assets/img/Pokeball.png" class="img-fluid justify-content-center pokeball-icon" alt="Pokeball">
+    <div class="">
+        <img id="pokeball-{{id}}" src="/assets/img/Pokeball.png" class="img-fluid justify-content-center pokeball-icon animated-hover infinite rotate" alt="Pokeball">
         <button class="catch-pokemon btn btn-success" data-id="{{id}}" data-pokeid="{{pokemon_id}}" data-newcaught="1">Throw Pokeball</button>
     </div>
     {{/unless}}
