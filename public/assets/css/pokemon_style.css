@@ -11,7 +11,11 @@ body {
 }
 
 .bg-white-transparent{
-    background-color: rgba(255, 255, 255, 0.82)!important;
+    background-color: rgba(255, 255, 255, 0.2)!important;
+}
+
+.bg-transparent{
+  background-color: rgba(255, 255, 255, 0.0)!important;
 }
 
 .pokeball-icon{
@@ -20,6 +24,21 @@ body {
 
 h1 {
     font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+h2, h3 {
+  letter-spacing: 1px;
+}
+
+.text-white-shadow {
+  text-shadow: 1px -1px white, -1px 1px white, -1px -1px white, 1px 1px white;
+
+}
+
+.text-black-shadow {
+  text-shadow: 1px -1px black, -1px 1px black, -1px -1px black, 1px 1px black;
+
 }
 
 .alignment{
@@ -58,6 +77,47 @@ h1 {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
   }
+
+
+  @-webkit-keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
 
   
 @-webkit-keyframes wobble {
