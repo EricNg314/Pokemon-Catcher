@@ -13,7 +13,7 @@ The example:
 
 ## Example of App :tv:
 
-![demo](/public/assets/img/PokemonDemo3.gif)
+![demo](/public/assets/img/PokemonDemo1.gif)
 
 ## Getting Started :loudspeaker:
 This repo utilizes various packages from Node Package Manager(NPM).
