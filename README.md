@@ -73,3 +73,4 @@ This repo utilizes various packages from Node Package Manager(NPM).
 
 ## Acknowledgments 
 * Original animations prior to modifications are from Animate.css from Daniel Eden. [Click here](https://github.com/daneden/animate.css)
+* Thanks to [PokeAPI](https://pokeapi.co/) for the image repository.
